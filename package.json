@@ -1,0 +1,22 @@
+{
+  "name": "joker",
+  "version": "0.0.1",
+  "description": "Application that tells jokes",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eivindholvik/environment.git"
+  },
+  "keywords": [
+    "jokes"
+  ],
+  "author": "Eivind Holvik <eivind.holvik@noroff.no>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eivindholvik/environment/issues"
+  },
+  "homepage": "https://eivindholvik.github.io/joker"
+}
