@@ -1,3 +1,5 @@
 import joker from "one-liner-joke";
 
-console.log(joker.getRandomJoke().body);
+setInterval(() => {
+  console.log(joker.getRandomJoke().body);
+}, 10000);
