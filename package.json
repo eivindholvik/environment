@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/eivindholvik/environment/issues"
   },
-  "homepage": "https://eivindholvik.github.io/joker"
+  "homepage": "https://eivindholvik.github.io/joker",
+  "dependencies": {
+    "one-liner-joke": "^1.2.2"
+  }
 }
