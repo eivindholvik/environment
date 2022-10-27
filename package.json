@@ -1,10 +1,12 @@
 {
   "name": "joker",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Application that tells jokes",
+  "type": "module",
   "main": "src/index.js",
   "scripts": {
-    "test": "node src/index.js"
+    "test": "node src/js/joker.js",
+    "format": "prettier -w src/js/joker.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/eivindholvik/environment/issues"
   },
-  "homepage": "https://eivindholvik.github.io/joker"
+  "homepage": "https://eivindholvik.github.io/joker",
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "give-me-a-joke": "^0.5.1"
+  }
 }
