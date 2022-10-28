@@ -1,11 +1,7 @@
-import { dadJoke } from "./joker.js";
+import joker from "give-me-a-joke";
 
-export async function testDadJoke() {
-  const joke = await dadJoke();
-  const testPasses = Boolean(joke);
-  console.log(joke);
-  console.log('Dad Joke Test:', testPasses ? 'PASSED' : 'FAILED');
-  return testPasses;
+export function dadJoke() {
+  return new Promise(function (resolve, reject) {
+    joker.getRandomDadJoke(resolve);
+  });
 }
-
-testDadJoke();
