@@ -1,5 +1,7 @@
 import joker from "give-me-a-joke";
 
-// setInterval(() => {
-  joker.getRandomDadJoke(console.log);
-// }, 10000);
+export function dadJoke() {
+  return new Promise(function (resolve, reject) {
+    joker.getRandomDadJoke(resolve);
+  })
+}
